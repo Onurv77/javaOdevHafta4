@@ -13,7 +13,7 @@ public class Main {
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisAdapterService());
 		try {
-			customerManager.save(new Customer(0,"Onur","Özcan",LocalDate.of(2000, 1, 6),"2000000000"));
+			customerManager.save(new Customer(0,"Onur","Ã–zcan",LocalDate.of(1234, 1, 6),"2000000000"));
 		} catch (Exception e) {
 			System.out.println(e);
 		}
